@@ -56,6 +56,8 @@ stages:
       displayName: Scan Nuget Packages
       enabled: ${{ parameters.runCompletePipeline }}
 
+    
+    
     - task: PowerShell@2
       displayName: Prepare for Sonar Cloud
       enabled: ${{ parameters.runCompletePipeline }}
