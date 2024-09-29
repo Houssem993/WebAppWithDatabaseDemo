@@ -49,7 +49,8 @@ jobs:
     inputs:
       SonarCloud: 'SonarCloud'
       organization: 'hhdevopslabs'
-      projectKey: 'WebAppWithDatabaseDemo'
+      scannerMode: 'MSBuild'
+      projectKey: 'hhdevopslabs_webappwithdatabasedemo'
   
   - task: DotNetCoreCLI@2
     displayName: Build
