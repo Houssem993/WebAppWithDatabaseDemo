@@ -220,7 +220,7 @@ stages:
         azureSubscription: 'Azure for Students(bb5819e5-422d-4ddb-aa37-2c4bd0a27064)'
         action: 'Create Or Update Resource Group'
         resourceGroupName: '$(ResourceGroupName)'
-        location: 'West Europe'
+        location: 'North Europe'
         templateLocation: 'Linked artifact'
         csmFile: '$(System.DefaultWorkingDirectory)/arm/WebSiteSQLDatabase.json'
         csmParametersFile: '$(System.DefaultWorkingDirectory)/arm/WebSiteSQLDatabase.parameters.json'
